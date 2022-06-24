@@ -16,11 +16,26 @@ This project tested all of my React knowledge. Had a lot of fun making this proj
 ## Here's how it looks-like
 
 <img src='Preview/image-1.png' />
+<hr/>
 <img src='Preview/image-2.png' />
+<hr/>
 <img src='Preview/image-3.png' />
+<hr/>
 <img src='Preview/image-4.png' />
+<hr/>
 <img src='Preview/image-5.png' />
+<hr/>
 <img src='Preview/image-6.png' />
+
+## Here are some of the Animations
+
+https://user-images.githubusercontent.com/78212328/175658075-bf3fb4e6-3cfe-4c98-bfba-a226098aec07.mp4
+<br><hr/><br>
+https://user-images.githubusercontent.com/78212328/175658839-b31cfe34-98a9-4b9d-bcbb-b35697efa16c.mp4
+<br><hr/><br>
+https://user-images.githubusercontent.com/78212328/175658907-d4dc0f99-28e7-4e36-9df9-eac33be99e35.mp4
+<br><hr/><br>
+https://user-images.githubusercontent.com/78212328/175658921-949ab7c9-3136-4dfd-9e58-ae61b0facd94.mp4
 
 ## How to Run the project on your Device
 
