@@ -15,12 +15,12 @@ This project tested all of my React knowledge. Had a lot of fun making this proj
 
 ## Here's how it looks-like
 
-<img src='Preview/image-1.jpg' />
-<img src='Preview/image-2.jpg' />
-<img src='Preview/image-3.jpg' />
-<img src='Preview/image-4.jpg' />
-<img src='Preview/image-5.jpg' />
-<img src='Preview/image-6.jpg' />
+<img src='Preview/image-1.png' />
+<img src='Preview/image-2.png' />
+<img src='Preview/image-3.png' />
+<img src='Preview/image-4.png' />
+<img src='Preview/image-5.png' />
+<img src='Preview/image-6.png' />
 
 ## How to Run the project on your Device
 
