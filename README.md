@@ -2,7 +2,7 @@
 
 Link to the live web application => (https://react-web3funds.web.app) \
 A Frontend, React based Web-application.\
-It is another one of my free lancing projects which displays information about Grants provided by Web3Foundation team.\
+It is another one of my freelancing projects which displays information about Grants provided by Web3Foundation team.\
 Some of the features:
 
 1. The application includes a search bar and very complex filtering options for hundreds of data of granted applications.
