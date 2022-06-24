@@ -1,0 +1,111 @@
+.Footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81)), url("../../assets/footbg.png");
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 288px;
+
+  .f-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+
+    .logo-container {
+      margin: 15px;
+      display: flex;
+      img {
+        height: 140px;
+      }
+
+      @media only screen and (max-width: 760px) {
+        img {
+          height: 80px;
+        }
+      }
+    }
+    @media only screen and (max-width: 430px) {
+      .logo-container {
+        display: none;
+      }
+    }
+
+    .fl-container {
+      min-width: 255px;
+      .fl {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 5px;
+      }
+    }
+
+    .icon-container {
+      a {
+        margin: 15px;
+        font-size: larger;
+        text-decoration: none;
+        color: #fff;
+
+        i {
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 760px) {
+    .f-top {
+      grid-template-columns: 3.5fr 5fr;
+    }
+
+    .logo-container {
+      grid-row: 1/3;
+    }
+
+    .icon-container {
+      grid-column: 2;
+    }
+  }
+
+  @media only screen and (max-width: 430px) {
+    .f-top {
+      grid-template-columns: 1fr;
+    }
+
+    .icon-container {
+      grid-column: inherit;
+    }
+  }
+
+  .f-bottom {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+
+    p {
+      margin: 15px;
+      min-width: 183px;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+    .f-bottom {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .f-bottom {
+      font-size: smaller;
+
+      p {
+        margin: initial 0;
+        min-width: 120px;
+      }
+    }
+  }
+}

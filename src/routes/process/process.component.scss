@@ -1,0 +1,336 @@
+.process {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin-bottom: 0;
+    color: #141414;
+    font-size: 27px;
+  }
+  .p1,
+  .p2 {
+    color: #141414;
+    font-size: 21px;
+    width: 75%;
+    text-align: center;
+  }
+  .p1 {
+    margin-top: 0;
+  }
+  .p2 {
+    font-weight: 500;
+  }
+
+  .underline,
+  .underline2 {
+    background-color: #141414;
+    clip-path: polygon(95% 0%, 100% 16%, 5% 16%, 0% 0%);
+    width: 220px;
+    height: 40px;
+  }
+  .underline2 {
+    width: 400px;
+  }
+  .h1-2 {
+    margin-top: 40px;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .underline2 {
+      width: 65%;
+    }
+
+    .h1-2 {
+      width: 85%;
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+
+  .top-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .card {
+      max-width: 500px;
+      margin: 20px;
+      padding: 20px 40px;
+      border-radius: 15px;
+      background-color: #fafafa;
+      min-height: 535px;
+
+      h4 {
+        color: #141414;
+        font-size: 21px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+      }
+
+      ul {
+        padding: 0;
+        color: #464646;
+        list-style: none;
+
+        li::before {
+          content: "\2022";
+          color: #464646;
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -1em;
+        }
+
+        li {
+          font-size: 17px;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+
+  .ap-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    .arrowimg {
+      position: relative;
+      width: 110px;
+      top: 10px;
+      left: -46px;
+    }
+
+    .noteimg {
+      position: relative;
+      width: 120px;
+      left: 195px;
+      top: -11px;
+    }
+
+    .note {
+      font-size: 23px;
+      font-weight: 500;
+      margin: 0;
+      margin-right: 20px;
+    }
+
+    .p3 {
+      width: 72%;
+      font-size: 17px;
+      margin: 0 7vw 40px 21px;
+      min-width: 385px;
+    }
+  }
+
+  @media only screen and (max-width: 685px) {
+    .ap-top {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -30px;
+
+      .note {
+        margin: 0;
+        margin-bottom: 20px;
+      }
+
+      .arrowimg {
+        display: none;
+      }
+
+      .noteimg {
+        left: 0;
+        top: 40px;
+      }
+
+      .p3 {
+        margin: 0 0 30px 0;
+        width: 85%;
+        min-width: auto;
+      }
+    }
+  }
+
+  .ap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .apin {
+      display: grid;
+      grid-template-columns: 8fr 1fr;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      margin-right: -32px;
+
+      .ap-content {
+        padding: 20px;
+        border: 2px solid #cfcfcf;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 120px;
+
+        p {
+          margin: 5px;
+          color: #000000;
+        }
+      }
+
+      .ap-img-container {
+        position: relative;
+        border-radius: 80px;
+        right: 20px;
+        .ap-img {
+          height: 200px;
+        }
+        .no-header1,
+        .no-header2,
+        .no-header3 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 30px;
+          border-radius: 200px;
+          background-color: #f9f9fa;
+          padding: 0px;
+          position: absolute;
+          top: 82px;
+          z-index: 10;
+
+          img {
+            height: 30px;
+          }
+
+          p {
+            font-size: 13px;
+            text-align: center;
+            margin: 0;
+          }
+        }
+
+        .no-header1 {
+          right: 31px;
+          height: 142px;
+          top: 30px;
+          width: 137px;
+        }
+
+        .no-header2 {
+          top: 33px;
+          right: 28px;
+          height: 139px;
+          width: 143px;
+        }
+
+        .no-header3 {
+          top: 35px;
+          right: 23px;
+          height: 135px;
+          width: 150px;
+        }
+      }
+    }
+
+    .ap2 {
+      grid-template-columns: 1fr 8fr;
+      margin-right: 0;
+      margin-left: -20px;
+
+      .ap-img-container {
+        right: -20px;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .apin {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+
+        .ap-img-container {
+          grid-row-start: 1;
+          right: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          top: 8px;
+          .ap-img {
+            height: 125px;
+          }
+          .no-header1,
+          .no-header2,
+          .no-header3 {
+            p {
+              display: none;
+            }
+            width: 95px;
+            left: 38vw;
+            height: 93px;
+            top: 18px;
+          }
+
+          @media only screen and (max-width: 440px) {
+            .no-header1,
+            .no-header2,
+            .no-header3 {
+              left: 35vw;
+            }
+          }
+        }
+      }
+
+      .ap2 {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+        margin-left: 0;
+
+        .ap-img-container {
+          right: 0;
+        }
+      }
+    }
+
+    .connector {
+      clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+      width: 100px;
+      height: 100px;
+      border: 2px solid #cfcfcf;
+      border-top: 10px solid white;
+      border-bottom: 10px solid white;
+      height: 75px;
+    }
+
+    .con2 {
+      height: 33px;
+    }
+  }
+
+  .p-bottom {
+    width: 85%;
+    padding-left: 0;
+    line-height: 35px;
+    font-size: 18px;
+    margin: -20px 0 40px 0;
+
+    li {
+      margin: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .p-bottom {
+      text-align: center;
+    }
+  }
+}

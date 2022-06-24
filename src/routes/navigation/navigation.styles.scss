@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap");
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+
+  .logo-container {
+    img {
+      width: 180px;
+      padding: 25px;
+      margin: 20px 3vw 20px 3vw;
+    }
+  }
+
+  .nav-links-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
+      margin: 0 10px;
+      color: #464646;
+      &:hover {
+        color: rgba(0, 0, 0, 0.85);
+      }
+    }
+    .nav-link-last {
+      margin-right: 3vw;
+      font-family: "Baloo Da 2", cursive;
+      min-width: 185px;
+    }
+    .active {
+      color: black;
+      font-weight: 600;
+    }
+  }
+
+  .nav-toggle {
+    position: absolute;
+    font-size: 29px;
+    top: 59px;
+    right: 48px;
+    display: none;
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .nav-toggle {
+      display: initial;
+    }
+
+    .nav-links-container {
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      display: none;
+    }
+
+    .unhider {
+      display: flex;
+    }
+
+    .hider {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .navigation {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

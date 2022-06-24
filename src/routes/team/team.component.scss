@@ -1,0 +1,112 @@
+.underline,
+.underline2 {
+  background-color: #141414;
+  clip-path: polygon(95% 0%, 100% 16%, 5% 16%, 0% 0%);
+  width: 357px;
+  height: 40px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #141414;
+
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 20px;
+    max-width: 1400px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .headersmall {
+    color: #464646;
+    font-weight: 500;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: flex-start;
+    width: 80%;
+    margin: 10px 20px;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+
+      .card-img {
+        img {
+          height: 120px;
+          border-radius: 100px;
+        }
+      }
+
+      h2 {
+        margin: 20px 0;
+        font-size: 19px;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .gitlink-container {
+        display: inline;
+        border-radius: 100px;
+        background-color: #fff;
+        padding: 5px;
+        display: none;
+        position: fixed;
+        top: 100px;
+        font-size: 23px;
+      }
+
+      &:hover {
+        flex-grow: 1.25;
+        .gitlink-container {
+          display: inline;
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 880px) {
+    .card-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%;
+    }
+
+    .card {
+      margin: 10px;
+    }
+
+    h1 {
+      font-size: 23px;
+    }
+
+    .underline {
+      width: 250px;
+    }
+
+    .underline2 {
+      width: 240px;
+    }
+  }
+}
