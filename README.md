@@ -27,7 +27,7 @@ This project tested all of my React knowledge. Had a lot of fun making this proj
 <hr/>
 <img src='Preview/image-6.png' />
 
-## Here are some of the Animations
+## Here are some of the Clips
 
 https://user-images.githubusercontent.com/78212328/175658075-bf3fb4e6-3cfe-4c98-bfba-a226098aec07.mp4
 
