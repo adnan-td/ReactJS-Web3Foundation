@@ -2,7 +2,7 @@
 
 Link to the live web application => (https://react-web3funds.web.app) \
 A Frontend, React based Web-application.\
-It is another one of my freelancing projects which displays information about Grants provided by Web3Foundation team.\
+It is another one of my freelancing projects which is about the Grants provided by Web3Foundation team.
 
 Some of the features:
 1. The application includes a search bar and very complex filtering options for hundreds of data of granted applications.
@@ -11,7 +11,7 @@ Some of the features:
 4. It uses data scraped by using Javascript library Puppeteer in Node js.
 5. All of the styling is done in Sass.
 
-This project tested all of my React knowledge. Had a lot of fun making this project come to life and learned alot.\
+This project tested all of my React knowledge. Had a lot of fun making this project come to life and learned alot.
 
 ## Here's how it looks-like
 
@@ -60,6 +60,6 @@ Runs the node pakage manager (npm) and fixes any issue with modules.
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.
